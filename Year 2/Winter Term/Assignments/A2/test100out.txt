@@ -1,0 +1,769 @@
+Simulation begins...
+Time    11: Patient   1 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time    11: Patient   1 begins assessment of length 9.
+Time    20: Patient   1 completes assessment, assigned priority of 1, scheduled for blood work.
+Time    20: Patient   1 begins blood Work.
+Time    33: Patient   2 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time    33: Patient   2 begins assessment of length 7.
+Time    35: Patient   1 completes blood work, scheduled for X-ray.
+Time    35: Patient   1 begins X-Ray.
+Time    40: Patient   2 completes assessment, assigned priority of 3, scheduled for blood work.
+Time    40: Patient   2 begins blood Work.
+Time    55: Patient   2 completes blood work, scheduled for treatment.
+Time    55: Patient   2 starts treatment of length 133.
+Time    60: Patient   1 completes X-Ray, scheduled for treatment.
+Time    60: Patient   1 starts treatment of length 31.
+Time    82: Patient   3 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time    82: Patient   3 begins assessment of length 8.
+Time    90: Patient   3 completes assessment, assigned priority of 3, scheduled for blood work.
+Time    90: Patient   3 begins blood Work.
+Time    91: Patient   1 discharged at time 91
+Time    91: Patient   4 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time    91: Patient   4 begins assessment of length 13.
+Time   104: Patient   4 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   104: Patient   4 begins blood Work.
+Time   105: Patient   3 completes blood work, scheduled for X-ray.
+Time   105: Patient   3 begins X-Ray.
+Time   119: Patient   4 completes blood work, scheduled for treatment.
+Time   119: Patient   4 starts treatment of length 57.
+Time   119: Patient   5 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   119: Patient   5 begins assessment of length 12.
+Time   130: Patient   3 completes X-Ray, scheduled for treatment.
+Time   130: Patient   3 starts treatment of length 84.
+Time   131: Patient   5 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   131: Patient   5 begins blood Work.
+Time   146: Patient   5 completes blood work, queued for treatment.
+Time   159: Patient   6 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   159: Patient   6 begins assessment of length 28.
+Time   169: Patient   7 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   169: Patient   7 begins assessment of length 7.
+Time   176: Patient   4 discharged at time 176
+Time   176: Patient   5 starts treatment of length 104.
+Time   176: Patient   7 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   176: Patient   7 begins blood Work.
+Time   187: Patient   6 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   187: Patient   6 begins blood Work.
+Time   188: Patient   2 discharged at time 188
+Time   191: Patient   7 completes blood work, scheduled for X-ray.
+Time   191: Patient   7 begins X-Ray.
+Time   197: Patient   8 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   197: Patient   8 begins assessment of length 9.
+Time   202: Patient   6 completes blood work, queued for X-ray.
+Time   206: Patient   8 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   206: Patient   8 begins blood Work.
+Time   214: Patient   3 discharged at time 214
+Time   216: Patient   7 completes X-Ray, scheduled for treatment.
+Time   216: Patient   6 begins X-Ray.
+Time   216: Patient   7 starts treatment of length 27.
+Time   216: Patient   9 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   216: Patient   9 begins assessment of length 14.
+Time   221: Patient   8 completes blood work, scheduled for treatment.
+Time   221: Patient   8 starts treatment of length 53.
+Time   230: Patient   9 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   230: Patient   9 begins blood Work.
+Time   234: Patient  10 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   234: Patient  10 begins assessment of length 28.
+Time   241: Patient   6 completes X-Ray, queued for treatment.
+Time   243: Patient   7 discharged at time 243
+Time   243: Patient   6 starts treatment of length 25.
+Time   243: Patient  11 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   243: Patient  11 begins assessment of length 12.
+Time   245: Patient   9 completes blood work, queued for treatment.
+Time   255: Patient  11 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   255: Patient  11 begins blood Work.
+Time   262: Patient  10 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   262: Patient  10 begins blood Work.
+Time   268: Patient   6 discharged at time 268
+Time   268: Patient   9 starts treatment of length 134.
+Time   270: Patient  11 completes blood work, queued for treatment.
+Time   274: Patient   8 discharged at time 274
+Time   274: Patient  11 starts treatment of length 73.
+Time   277: Patient  10 completes blood work, queued for treatment.
+Time   278: Patient  12 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   278: Patient  12 begins assessment of length 22.
+Time   280: Patient   5 discharged at time 280
+Time   280: Patient  10 starts treatment of length 118.
+Time   281: Patient  13 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   281: Patient  13 begins assessment of length 24.
+Time   300: Patient  12 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   300: Patient  12 begins blood Work.
+Time   305: Patient  13 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   305: Patient  13 begins blood Work.
+Time   315: Patient  12 completes blood work, queued for treatment.
+Time   320: Patient  13 completes blood work, scheduled for X-ray.
+Time   320: Patient  13 begins X-Ray.
+Time   333: Patient  14 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   333: Patient  14 begins assessment of length 17.
+Time   338: Patient  15 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   338: Patient  15 begins assessment of length 8.
+Time   345: Patient  13 completes X-Ray, queued for treatment.
+Time   346: Patient  15 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   346: Patient  15 begins blood Work.
+Time   347: Patient  11 discharged at time 347
+Time   347: Patient  12 starts treatment of length 85.
+Time   350: Patient  14 completes assessment, assigned priority of 2, queued for treatment.
+Time   358: Patient  16 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   358: Patient  16 begins assessment of length 11.
+Time   361: Patient  15 completes blood work, scheduled for X-ray.
+Time   361: Patient  15 begins X-Ray.
+Time   369: Patient  16 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   369: Patient  16 begins blood Work.
+Time   384: Patient  16 completes blood work, queued for X-ray.
+Time   386: Patient  15 completes X-Ray, queued for treatment.
+Time   386: Patient  16 begins X-Ray.
+Time   387: Patient  17 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   387: Patient  17 begins assessment of length 18.
+Time   390: Patient  18 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   390: Patient  18 begins assessment of length 29.
+Time   398: Patient  10 discharged at time 398
+Time   398: Patient  14 starts treatment of length 30.
+Time   402: Patient   9 discharged at time 402
+Time   402: Patient  13 starts treatment of length 32.
+Time   405: Patient  17 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   405: Patient  17 begins blood Work.
+Time   411: Patient  16 completes X-Ray, queued for treatment.
+Time   419: Patient  18 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   419: Patient  18 begins blood Work.
+Time   420: Patient  17 completes blood work, queued for treatment.
+Time   428: Patient  14 discharged at time 428
+Time   428: Patient  17 starts treatment of length 131.
+Time   432: Patient  12 discharged at time 432
+Time   432: Patient  16 starts treatment of length 132.
+Time   434: Patient  13 discharged at time 434
+Time   434: Patient  15 starts treatment of length 122.
+Time   434: Patient  18 completes blood work, queued for treatment.
+Time   438: Patient  19 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   438: Patient  19 begins assessment of length 15.
+Time   453: Patient  19 completes assessment, assigned priority of 5, queued for treatment.
+Time   457: Patient  20 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   457: Patient  20 begins assessment of length 10.
+Time   464: Patient  21 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   464: Patient  21 begins assessment of length 17.
+Time   467: Patient  20 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   467: Patient  20 begins blood Work.
+Time   480: Patient  22 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   480: Patient  22 begins assessment of length 24.
+Time   481: Patient  21 completes assessment, assigned priority of 1, scheduled for blood work.
+Time   481: Patient  21 begins blood Work.
+Time   482: Patient  20 completes blood work, queued for treatment.
+Time   496: Patient  21 completes blood work, queued for treatment.
+Time   501: Patient  23 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   501: Patient  23 begins assessment of length 18.
+Time   504: Patient  22 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   504: Patient  22 begins blood Work.
+Time   519: Patient  22 completes blood work, scheduled for X-ray.
+Time   519: Patient  22 begins X-Ray.
+Time   519: Patient  23 completes assessment, assigned priority of 1, scheduled for blood work.
+Time   519: Patient  23 begins blood Work.
+Time   530: Patient  24 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   530: Patient  24 begins assessment of length 25.
+Time   534: Patient  23 completes blood work, queued for X-ray.
+Time   544: Patient  22 completes X-Ray, queued for treatment.
+Time   544: Patient  23 begins X-Ray.
+Time   555: Patient  24 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   555: Patient  24 begins blood Work.
+Time   556: Patient  15 discharged at time 556
+Time   556: Patient  21 starts treatment of length 118.
+Time   559: Patient  17 discharged at time 559
+Time   559: Patient  20 starts treatment of length 52.
+Time   561: Patient  25 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   561: Patient  25 begins assessment of length 25.
+Time   563: Patient  26 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   563: Patient  26 begins assessment of length 10.
+Time   564: Patient  16 discharged at time 564
+Time   564: Patient  22 starts treatment of length 120.
+Time   569: Patient  23 completes X-Ray, queued for treatment.
+Time   570: Patient  24 completes blood work, scheduled for X-ray.
+Time   570: Patient  24 begins X-Ray.
+Time   573: Patient  26 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   573: Patient  26 begins blood Work.
+Time   586: Patient  25 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   586: Patient  25 begins blood Work.
+Time   588: Patient  26 completes blood work, queued for treatment.
+Time   595: Patient  24 completes X-Ray, queued for treatment.
+Time   601: Patient  25 completes blood work, scheduled for X-ray.
+Time   601: Patient  25 begins X-Ray.
+Time   602: Patient  27 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   602: Patient  27 begins assessment of length 22.
+Time   607: Patient  28 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   607: Patient  28 begins assessment of length 8.
+Time   610: Patient  29 arrives in ED. Assessment nurses busy; (patient is queued).
+Time   611: Patient  20 discharged at time 611
+Time   611: Patient  23 starts treatment of length 29.
+Time   614: Patient  30 arrives in ED. Assessment nurses busy; (patient is queued).
+Time   615: Patient  28 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   615: Patient  28 begins blood Work.
+Time   615: Patient  29 begins assessment of length 24.
+Time   624: Patient  27 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   624: Patient  27 begins blood Work.
+Time   624: Patient  30 begins assessment of length 11.
+Time   626: Patient  25 completes X-Ray, queued for treatment.
+Time   630: Patient  28 completes blood work, queued for treatment.
+Time   635: Patient  30 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   635: Patient  30 begins blood Work.
+Time   639: Patient  27 completes blood work, queued for treatment.
+Time   639: Patient  29 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   639: Patient  29 begins blood Work.
+Time   640: Patient  23 discharged at time 640
+Time   640: Patient  25 starts treatment of length 85.
+Time   642: Patient  31 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   642: Patient  31 begins assessment of length 28.
+Time   649: Patient  32 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   649: Patient  32 begins assessment of length 29.
+Time   650: Patient  30 completes blood work, scheduled for X-ray.
+Time   650: Patient  30 begins X-Ray.
+Time   654: Patient  29 completes blood work, queued for treatment.
+Time   670: Patient  31 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   670: Patient  31 begins blood Work.
+Time   674: Patient  21 discharged at time 674
+Time   674: Patient  29 starts treatment of length 26.
+Time   675: Patient  30 completes X-Ray, queued for treatment.
+Time   678: Patient  32 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   678: Patient  32 begins blood Work.
+Time   684: Patient  22 discharged at time 684
+Time   684: Patient  26 starts treatment of length 98.
+Time   685: Patient  31 completes blood work, queued for treatment.
+Time   693: Patient  32 completes blood work, queued for treatment.
+Time   700: Patient  29 discharged at time 700
+Time   700: Patient  18 starts treatment of length 49.
+Time   713: Patient  33 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   713: Patient  33 begins assessment of length 5.
+Time   718: Patient  33 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   718: Patient  33 begins blood Work.
+Time   725: Patient  25 discharged at time 725
+Time   725: Patient  24 starts treatment of length 134.
+Time   733: Patient  33 completes blood work, scheduled for X-ray.
+Time   733: Patient  33 begins X-Ray.
+Time   741: Patient  34 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   741: Patient  34 begins assessment of length 21.
+Time   749: Patient  18 discharged at time 749
+Time   749: Patient  28 starts treatment of length 106.
+Time   758: Patient  33 completes X-Ray, queued for treatment.
+Time   762: Patient  34 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   762: Patient  34 begins blood Work.
+Time   764: Patient  35 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   764: Patient  35 begins assessment of length 27.
+Time   768: Patient  36 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   768: Patient  36 begins assessment of length 13.
+Time   777: Patient  34 completes blood work, queued for treatment.
+Time   781: Patient  36 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   781: Patient  36 begins blood Work.
+Time   782: Patient  26 discharged at time 782
+Time   782: Patient  30 starts treatment of length 55.
+Time   782: Patient  37 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   782: Patient  37 begins assessment of length 27.
+Time   789: Patient  38 arrives in ED. Assessment nurses busy; (patient is queued).
+Time   791: Patient  35 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   791: Patient  35 begins blood Work.
+Time   791: Patient  38 begins assessment of length 5.
+Time   796: Patient  36 completes blood work, queued for treatment.
+Time   796: Patient  38 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   796: Patient  38 begins blood Work.
+Time   806: Patient  35 completes blood work, queued for treatment.
+Time   809: Patient  37 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   809: Patient  37 begins blood Work.
+Time   811: Patient  38 completes blood work, queued for treatment.
+Time   824: Patient  37 completes blood work, queued for treatment.
+Time   837: Patient  30 discharged at time 837
+Time   837: Patient  35 starts treatment of length 25.
+Time   855: Patient  28 discharged at time 855
+Time   855: Patient  36 starts treatment of length 129.
+Time   859: Patient  24 discharged at time 859
+Time   859: Patient  31 starts treatment of length 81.
+Time   862: Patient  35 discharged at time 862
+Time   862: Patient  32 starts treatment of length 90.
+Time   877: Patient  39 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   877: Patient  39 begins assessment of length 8.
+Time   885: Patient  39 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   885: Patient  39 begins blood Work.
+Time   893: Patient  40 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   893: Patient  40 begins assessment of length 14.
+Time   900: Patient  39 completes blood work, queued for treatment.
+Time   907: Patient  40 completes assessment, assigned priority of 4, scheduled for blood work.
+Time   907: Patient  40 begins blood Work.
+Time   909: Patient  41 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   909: Patient  41 begins assessment of length 5.
+Time   913: Patient  42 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   913: Patient  42 begins assessment of length 8.
+Time   914: Patient  41 completes assessment, assigned priority of 3, scheduled for blood work.
+Time   914: Patient  41 begins blood Work.
+Time   921: Patient  42 completes assessment, assigned priority of 5, scheduled for blood work.
+Time   921: Patient  42 begins blood Work.
+Time   922: Patient  40 completes blood work, scheduled for X-ray.
+Time   922: Patient  40 begins X-Ray.
+Time   926: Patient  43 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   926: Patient  43 begins assessment of length 20.
+Time   929: Patient  41 completes blood work, queued for treatment.
+Time   936: Patient  42 completes blood work, queued for treatment.
+Time   940: Patient  31 discharged at time 940
+Time   940: Patient  41 starts treatment of length 36.
+Time   946: Patient  43 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   946: Patient  43 begins blood Work.
+Time   947: Patient  40 completes X-Ray, queued for treatment.
+Time   952: Patient  32 discharged at time 952
+Time   952: Patient  34 starts treatment of length 113.
+Time   961: Patient  43 completes blood work, scheduled for X-ray.
+Time   961: Patient  43 begins X-Ray.
+Time   976: Patient  41 discharged at time 976
+Time   976: Patient  37 starts treatment of length 37.
+Time   977: Patient  44 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   977: Patient  44 begins assessment of length 25.
+Time   982: Patient  45 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time   982: Patient  45 begins assessment of length 10.
+Time   984: Patient  36 discharged at time 984
+Time   984: Patient  40 starts treatment of length 122.
+Time   986: Patient  43 completes X-Ray, queued for treatment.
+Time   992: Patient  45 completes assessment, assigned priority of 2, scheduled for blood work.
+Time   992: Patient  45 begins blood Work.
+Time  1002: Patient  44 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1002: Patient  44 begins blood Work.
+Time  1007: Patient  45 completes blood work, queued for treatment.
+Time  1013: Patient  37 discharged at time 1013
+Time  1013: Patient  43 starts treatment of length 25.
+Time  1017: Patient  44 completes blood work, queued for treatment.
+Time  1022: Patient  46 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1022: Patient  46 begins assessment of length 29.
+Time  1024: Patient  47 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1024: Patient  47 begins assessment of length 29.
+Time  1025: Patient  48 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1038: Patient  43 discharged at time 1038
+Time  1038: Patient  45 starts treatment of length 34.
+Time  1040: Patient  49 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1040: Patient  50 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1043: Patient  51 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1051: Patient  46 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1051: Patient  46 begins blood Work.
+Time  1051: Patient  48 begins assessment of length 9.
+Time  1053: Patient  47 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1053: Patient  47 begins blood Work.
+Time  1053: Patient  49 begins assessment of length 10.
+Time  1060: Patient  48 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1060: Patient  48 begins blood Work.
+Time  1060: Patient  50 begins assessment of length 25.
+Time  1063: Patient  49 completes assessment, assigned priority of 5, queued for blood work.
+Time  1063: Patient  51 begins assessment of length 13.
+Time  1065: Patient  34 discharged at time 1065
+Time  1065: Patient  44 starts treatment of length 121.
+Time  1066: Patient  46 completes blood work, scheduled for X-ray.
+Time  1066: Patient  46 begins X-Ray.
+Time  1066: Patient  49 begins blood Work.
+Time  1068: Patient  47 completes blood work, queued for treatment.
+Time  1072: Patient  45 discharged at time 1072
+Time  1072: Patient  47 starts treatment of length 56.
+Time  1075: Patient  48 completes blood work, queued for treatment.
+Time  1076: Patient  51 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1076: Patient  51 begins blood Work.
+Time  1081: Patient  49 completes blood work, queued for treatment.
+Time  1081: Patient  52 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1081: Patient  52 begins assessment of length 18.
+Time  1085: Patient  50 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1085: Patient  50 begins blood Work.
+Time  1091: Patient  46 completes X-Ray, queued for treatment.
+Time  1091: Patient  51 completes blood work, queued for treatment.
+Time  1092: Patient  53 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1092: Patient  53 begins assessment of length 5.
+Time  1097: Patient  53 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1097: Patient  53 begins blood Work.
+Time  1099: Patient  52 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1099: Patient  52 begins blood Work.
+Time  1100: Patient  50 completes blood work, queued for treatment.
+Time  1101: Patient  54 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1101: Patient  54 begins assessment of length 27.
+Time  1106: Patient  40 discharged at time 1106
+Time  1106: Patient  48 starts treatment of length 76.
+Time  1112: Patient  53 completes blood work, queued for treatment.
+Time  1114: Patient  52 completes blood work, scheduled for X-ray.
+Time  1114: Patient  52 begins X-Ray.
+Time  1128: Patient  47 discharged at time 1128
+Time  1128: Patient  53 starts treatment of length 30.
+Time  1128: Patient  54 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1128: Patient  54 begins blood Work.
+Time  1139: Patient  52 completes X-Ray, queued for treatment.
+Time  1143: Patient  54 completes blood work, queued for treatment.
+Time  1151: Patient  55 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1151: Patient  55 begins assessment of length 17.
+Time  1156: Patient  56 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1156: Patient  56 begins assessment of length 24.
+Time  1158: Patient  53 discharged at time 1158
+Time  1158: Patient  46 starts treatment of length 26.
+Time  1158: Patient  57 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1159: Patient  58 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1167: Patient  59 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1168: Patient  55 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1168: Patient  55 begins blood Work.
+Time  1168: Patient  57 begins assessment of length 27.
+Time  1169: Patient  60 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1170: Patient  61 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1179: Patient  62 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1180: Patient  56 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1180: Patient  56 begins blood Work.
+Time  1180: Patient  58 begins assessment of length 29.
+Time  1182: Patient  48 discharged at time 1182
+Time  1182: Patient  51 starts treatment of length 132.
+Time  1183: Patient  55 completes blood work, queued for treatment.
+Time  1184: Patient  46 discharged at time 1184
+Time  1184: Patient  55 starts treatment of length 110.
+Time  1186: Patient  44 discharged at time 1186
+Time  1186: Patient  52 starts treatment of length 34.
+Time  1195: Patient  56 completes blood work, scheduled for X-ray.
+Time  1195: Patient  56 begins X-Ray.
+Time  1195: Patient  57 completes assessment, assigned priority of 2, queued for treatment.
+Time  1195: Patient  59 begins assessment of length 28.
+Time  1209: Patient  58 completes assessment, assigned priority of 3, queued for treatment.
+Time  1209: Patient  60 begins assessment of length 15.
+Time  1220: Patient  52 discharged at time 1220
+Time  1220: Patient  56 completes X-Ray, queued for treatment.
+Time  1220: Patient  57 starts treatment of length 131.
+Time  1223: Patient  59 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1223: Patient  59 begins blood Work.
+Time  1223: Patient  61 begins assessment of length 7.
+Time  1224: Patient  60 completes assessment, assigned priority of 1, scheduled for blood work.
+Time  1224: Patient  60 begins blood Work.
+Time  1224: Patient  62 begins assessment of length 25.
+Time  1230: Patient  61 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1230: Patient  61 begins blood Work.
+Time  1237: Patient  63 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1237: Patient  63 begins assessment of length 29.
+Time  1238: Patient  59 completes blood work, scheduled for X-ray.
+Time  1238: Patient  59 begins X-Ray.
+Time  1239: Patient  60 completes blood work, queued for X-ray.
+Time  1245: Patient  61 completes blood work, queued for treatment.
+Time  1249: Patient  62 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1249: Patient  62 begins blood Work.
+Time  1263: Patient  59 completes X-Ray, queued for treatment.
+Time  1263: Patient  60 begins X-Ray.
+Time  1264: Patient  62 completes blood work, queued for X-ray.
+Time  1266: Patient  63 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1266: Patient  63 begins blood Work.
+Time  1271: Patient  64 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1271: Patient  64 begins assessment of length 13.
+Time  1271: Patient  65 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1271: Patient  65 begins assessment of length 5.
+Time  1273: Patient  66 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1276: Patient  65 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1276: Patient  65 begins blood Work.
+Time  1276: Patient  66 begins assessment of length 15.
+Time  1281: Patient  63 completes blood work, queued for treatment.
+Time  1284: Patient  64 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1284: Patient  64 begins blood Work.
+Time  1288: Patient  60 completes X-Ray, queued for treatment.
+Time  1288: Patient  62 begins X-Ray.
+Time  1291: Patient  65 completes blood work, queued for treatment.
+Time  1291: Patient  66 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1291: Patient  66 begins blood Work.
+Time  1294: Patient  55 discharged at time 1294
+Time  1294: Patient  60 starts treatment of length 123.
+Time  1299: Patient  64 completes blood work, queued for X-ray.
+Time  1306: Patient  66 completes blood work, queued for treatment.
+Time  1307: Patient  67 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1307: Patient  67 begins assessment of length 5.
+Time  1312: Patient  67 completes assessment, assigned priority of 2, scheduled for blood work.
+Time  1312: Patient  67 begins blood Work.
+Time  1313: Patient  62 completes X-Ray, queued for treatment.
+Time  1313: Patient  64 begins X-Ray.
+Time  1314: Patient  51 discharged at time 1314
+Time  1314: Patient  58 starts treatment of length 113.
+Time  1315: Patient  68 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1315: Patient  68 begins assessment of length 29.
+Time  1324: Patient  69 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1324: Patient  69 begins assessment of length 28.
+Time  1327: Patient  67 completes blood work, queued for X-ray.
+Time  1338: Patient  64 completes X-Ray, queued for treatment.
+Time  1338: Patient  67 begins X-Ray.
+Time  1344: Patient  68 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1344: Patient  68 begins blood Work.
+Time  1351: Patient  57 discharged at time 1351
+Time  1351: Patient  61 starts treatment of length 112.
+Time  1352: Patient  69 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1352: Patient  69 begins blood Work.
+Time  1359: Patient  68 completes blood work, queued for X-ray.
+Time  1363: Patient  67 completes X-Ray, queued for treatment.
+Time  1363: Patient  68 begins X-Ray.
+Time  1364: Patient  70 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1364: Patient  70 begins assessment of length 22.
+Time  1367: Patient  69 completes blood work, queued for treatment.
+Time  1379: Patient  71 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1379: Patient  71 begins assessment of length 5.
+Time  1384: Patient  71 completes assessment, assigned priority of 1, scheduled for blood work.
+Time  1384: Patient  71 begins blood Work.
+Time  1386: Patient  70 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1386: Patient  70 begins blood Work.
+Time  1387: Patient  72 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1387: Patient  72 begins assessment of length 21.
+Time  1388: Patient  68 completes X-Ray, queued for treatment.
+Time  1388: Patient  73 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1388: Patient  73 begins assessment of length 5.
+Time  1393: Patient  73 completes assessment, assigned priority of 4, scheduled for X-ray.
+Time  1393: Patient  73 begins X-Ray.
+Time  1394: Patient  74 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1394: Patient  74 begins assessment of length 22.
+Time  1399: Patient  71 completes blood work, queued for treatment.
+Time  1401: Patient  70 completes blood work, queued for X-ray.
+Time  1407: Patient  75 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1408: Patient  72 completes assessment, assigned priority of 1, scheduled for blood work.
+Time  1408: Patient  72 begins blood Work.
+Time  1408: Patient  75 begins assessment of length 15.
+Time  1416: Patient  74 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1416: Patient  74 begins blood Work.
+Time  1416: Patient  76 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1416: Patient  76 begins assessment of length 5.
+Time  1417: Patient  60 discharged at time 1417
+Time  1417: Patient  71 starts treatment of length 62.
+Time  1418: Patient  73 completes X-Ray, queued for treatment.
+Time  1418: Patient  70 begins X-Ray.
+Time  1421: Patient  76 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1421: Patient  76 begins blood Work.
+Time  1423: Patient  72 completes blood work, queued for X-ray.
+Time  1423: Patient  75 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1423: Patient  75 begins blood Work.
+Time  1427: Patient  58 discharged at time 1427
+Time  1427: Patient  67 starts treatment of length 53.
+Time  1431: Patient  74 completes blood work, queued for treatment.
+Time  1436: Patient  76 completes blood work, queued for treatment.
+Time  1438: Patient  75 completes blood work, queued for treatment.
+Time  1443: Patient  70 completes X-Ray, queued for treatment.
+Time  1443: Patient  72 begins X-Ray.
+Time  1448: Patient  77 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1448: Patient  77 begins assessment of length 6.
+Time  1454: Patient  77 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1454: Patient  77 begins blood Work.
+Time  1463: Patient  61 discharged at time 1463
+Time  1463: Patient  65 starts treatment of length 26.
+Time  1465: Patient  78 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1465: Patient  78 begins assessment of length 21.
+Time  1466: Patient  79 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1466: Patient  79 begins assessment of length 29.
+Time  1468: Patient  72 completes X-Ray, queued for treatment.
+Time  1469: Patient  77 completes blood work, scheduled for X-ray.
+Time  1469: Patient  77 begins X-Ray.
+Time  1470: Patient  80 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1479: Patient  71 discharged at time 1479
+Time  1479: Patient  72 starts treatment of length 60.
+Time  1480: Patient  67 discharged at time 1480
+Time  1480: Patient  68 starts treatment of length 127.
+Time  1481: Patient  81 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1486: Patient  78 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1486: Patient  78 begins blood Work.
+Time  1486: Patient  80 begins assessment of length 8.
+Time  1489: Patient  65 discharged at time 1489
+Time  1489: Patient  54 starts treatment of length 84.
+Time  1489: Patient  82 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1494: Patient  77 completes X-Ray, queued for treatment.
+Time  1494: Patient  80 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1494: Patient  80 begins blood Work.
+Time  1494: Patient  81 begins assessment of length 26.
+Time  1495: Patient  79 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1495: Patient  79 begins blood Work.
+Time  1495: Patient  82 begins assessment of length 9.
+Time  1501: Patient  78 completes blood work, queued for treatment.
+Time  1504: Patient  82 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1504: Patient  82 begins blood Work.
+Time  1509: Patient  80 completes blood work, queued for treatment.
+Time  1510: Patient  79 completes blood work, queued for treatment.
+Time  1519: Patient  82 completes blood work, scheduled for X-ray.
+Time  1519: Patient  82 begins X-Ray.
+Time  1520: Patient  81 completes assessment, assigned priority of 2, scheduled for blood work.
+Time  1520: Patient  81 begins blood Work.
+Time  1524: Patient  83 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1524: Patient  83 begins assessment of length 28.
+Time  1535: Patient  81 completes blood work, queued for treatment.
+Time  1539: Patient  72 discharged at time 1539
+Time  1539: Patient  81 starts treatment of length 28.
+Time  1544: Patient  82 completes X-Ray, queued for treatment.
+Time  1552: Patient  83 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1552: Patient  83 begins blood Work.
+Time  1552: Patient  84 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1552: Patient  84 begins assessment of length 26.
+Time  1559: Patient  85 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1559: Patient  85 begins assessment of length 6.
+Time  1565: Patient  85 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1565: Patient  85 begins blood Work.
+Time  1567: Patient  81 discharged at time 1567
+Time  1567: Patient  56 starts treatment of length 25.
+Time  1567: Patient  83 completes blood work, scheduled for X-ray.
+Time  1567: Patient  83 begins X-Ray.
+Time  1573: Patient  54 discharged at time 1573
+Time  1573: Patient  59 starts treatment of length 28.
+Time  1574: Patient  86 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1574: Patient  86 begins assessment of length 29.
+Time  1574: Patient  87 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1578: Patient  84 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1578: Patient  84 begins blood Work.
+Time  1578: Patient  87 begins assessment of length 25.
+Time  1580: Patient  85 completes blood work, queued for treatment.
+Time  1583: Patient  88 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1592: Patient  56 discharged at time 1592
+Time  1592: Patient  83 completes X-Ray, queued for treatment.
+Time  1592: Patient  85 starts treatment of length 31.
+Time  1593: Patient  84 completes blood work, scheduled for X-ray.
+Time  1593: Patient  84 begins X-Ray.
+Time  1601: Patient  59 discharged at time 1601
+Time  1601: Patient  83 starts treatment of length 62.
+Time  1603: Patient  86 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1603: Patient  86 begins blood Work.
+Time  1603: Patient  87 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1603: Patient  87 begins blood Work.
+Time  1603: Patient  88 begins assessment of length 29.
+Time  1607: Patient  68 discharged at time 1607
+Time  1607: Patient  64 starts treatment of length 125.
+Time  1618: Patient  84 completes X-Ray, queued for treatment.
+Time  1618: Patient  86 completes blood work, queued for treatment.
+Time  1618: Patient  87 completes blood work, queued for treatment.
+Time  1623: Patient  85 discharged at time 1623
+Time  1623: Patient  84 starts treatment of length 131.
+Time  1632: Patient  88 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1632: Patient  88 begins blood Work.
+Time  1647: Patient  88 completes blood work, queued for treatment.
+Time  1652: Patient  89 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1652: Patient  89 begins assessment of length 24.
+Time  1657: Patient  90 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1657: Patient  90 begins assessment of length 6.
+Time  1663: Patient  83 discharged at time 1663
+Time  1663: Patient  73 starts treatment of length 92.
+Time  1663: Patient  90 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1663: Patient  90 begins blood Work.
+Time  1666: Patient  91 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1666: Patient  91 begins assessment of length 18.
+Time  1667: Patient  92 arrives in ED. Assessment nurses busy; (patient is queued).
+Time  1676: Patient  89 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1676: Patient  89 begins blood Work.
+Time  1676: Patient  92 begins assessment of length 8.
+Time  1678: Patient  90 completes blood work, queued for treatment.
+Time  1684: Patient  91 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1684: Patient  91 begins blood Work.
+Time  1684: Patient  92 completes assessment, assigned priority of 5, scheduled for X-ray.
+Time  1684: Patient  92 begins X-Ray.
+Time  1684: Patient  93 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1684: Patient  93 begins assessment of length 15.
+Time  1685: Patient  94 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1685: Patient  94 begins assessment of length 12.
+Time  1691: Patient  89 completes blood work, queued for treatment.
+Time  1697: Patient  94 completes assessment, assigned priority of 3, scheduled for blood work.
+Time  1697: Patient  94 begins blood Work.
+Time  1699: Patient  91 completes blood work, queued for treatment.
+Time  1699: Patient  93 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1699: Patient  93 begins blood Work.
+Time  1702: Patient  95 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1702: Patient  95 begins assessment of length 6.
+Time  1708: Patient  95 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1708: Patient  95 begins blood Work.
+Time  1709: Patient  92 completes X-Ray, queued for treatment.
+Time  1709: Patient  96 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1709: Patient  96 begins assessment of length 5.
+Time  1711: Patient  97 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1711: Patient  97 begins assessment of length 5.
+Time  1712: Patient  94 completes blood work, queued for treatment.
+Time  1714: Patient  93 completes blood work, queued for treatment.
+Time  1714: Patient  96 completes assessment, assigned priority of 5, scheduled for X-ray.
+Time  1714: Patient  96 begins X-Ray.
+Time  1716: Patient  97 completes assessment, assigned priority of 1, scheduled for blood work.
+Time  1716: Patient  97 begins blood Work.
+Time  1723: Patient  95 completes blood work, queued for treatment.
+Time  1726: Patient  98 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1726: Patient  98 begins assessment of length 11.
+Time  1727: Patient  99 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1727: Patient  99 begins assessment of length 9.
+Time  1731: Patient  97 completes blood work, queued for X-ray.
+Time  1732: Patient  64 discharged at time 1732
+Time  1732: Patient  90 starts treatment of length 133.
+Time  1736: Patient  99 completes assessment, assigned priority of 4, scheduled for blood work.
+Time  1736: Patient  99 begins blood Work.
+Time  1737: Patient  98 completes assessment, assigned priority of 5, scheduled for blood work.
+Time  1737: Patient  98 begins blood Work.
+Time  1739: Patient  96 completes X-Ray, queued for treatment.
+Time  1739: Patient  97 begins X-Ray.
+Time  1751: Patient  99 completes blood work, queued for X-ray.
+Time  1752: Patient  98 completes blood work, queued for X-ray.
+Time  1754: Patient  84 discharged at time 1754
+Time  1754: Patient  94 starts treatment of length 25.
+Time  1755: Patient  73 discharged at time 1755
+Time  1755: Patient  75 starts treatment of length 119.
+Time  1764: Patient  97 completes X-Ray, queued for treatment.
+Time  1764: Patient  99 begins X-Ray.
+Time  1768: Patient 100 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time  1768: Patient 100 begins assessment of length 8.
+Time  1776: Patient 100 completes assessment, assigned priority of 3, queued for treatment.
+Time  1779: Patient  94 discharged at time 1779
+Time  1779: Patient  97 starts treatment of length 92.
+Time  1789: Patient  99 completes X-Ray, queued for treatment.
+Time  1789: Patient  98 begins X-Ray.
+Time  1814: Patient  98 completes X-Ray, queued for treatment.
+Time  1865: Patient  90 discharged at time 1865
+Time  1865: Patient 100 starts treatment of length 130.
+Time  1871: Patient  97 discharged at time 1871
+Time  1871: Patient  77 starts treatment of length 33.
+Time  1874: Patient  75 discharged at time 1874
+Time  1874: Patient  86 starts treatment of length 33.
+Time  1904: Patient  77 discharged at time 1904
+Time  1904: Patient  87 starts treatment of length 80.
+Time  1907: Patient  86 discharged at time 1907
+Time  1907: Patient  89 starts treatment of length 40.
+Time  1947: Patient  89 discharged at time 1947
+Time  1947: Patient  93 starts treatment of length 125.
+Time  1984: Patient  87 discharged at time 1984
+Time  1984: Patient  95 starts treatment of length 131.
+Time  1995: Patient 100 discharged at time 1995
+Time  1995: Patient  99 starts treatment of length 25.
+Time  2020: Patient  99 discharged at time 2020
+Time  2020: Patient  19 starts treatment of length 114.
+Time  2072: Patient  93 discharged at time 2072
+Time  2072: Patient  27 starts treatment of length 28.
+Time  2100: Patient  27 discharged at time 2100
+Time  2100: Patient  33 starts treatment of length 102.
+Time  2115: Patient  95 discharged at time 2115
+Time  2115: Patient  38 starts treatment of length 128.
+Time  2134: Patient  19 discharged at time 2134
+Time  2134: Patient  39 starts treatment of length 127.
+Time  2202: Patient  33 discharged at time 2202
+Time  2202: Patient  42 starts treatment of length 25.
+Time  2227: Patient  42 discharged at time 2227
+Time  2227: Patient  49 starts treatment of length 52.
+Time  2243: Patient  38 discharged at time 2243
+Time  2243: Patient  50 starts treatment of length 63.
+Time  2261: Patient  39 discharged at time 2261
+Time  2261: Patient  62 starts treatment of length 105.
+Time  2279: Patient  49 discharged at time 2279
+Time  2279: Patient  63 starts treatment of length 51.
+Time  2306: Patient  50 discharged at time 2306
+Time  2306: Patient  66 starts treatment of length 71.
+Time  2330: Patient  63 discharged at time 2330
+Time  2330: Patient  69 starts treatment of length 111.
+Time  2366: Patient  62 discharged at time 2366
+Time  2366: Patient  70 starts treatment of length 43.
+Time  2377: Patient  66 discharged at time 2377
+Time  2377: Patient  74 starts treatment of length 117.
+Time  2409: Patient  70 discharged at time 2409
+Time  2409: Patient  76 starts treatment of length 122.
+Time  2441: Patient  69 discharged at time 2441
+Time  2441: Patient  78 starts treatment of length 28.
+Time  2469: Patient  78 discharged at time 2469
+Time  2469: Patient  79 starts treatment of length 133.
+Time  2494: Patient  74 discharged at time 2494
+Time  2494: Patient  80 starts treatment of length 116.
+Time  2531: Patient  76 discharged at time 2531
+Time  2531: Patient  82 starts treatment of length 109.
+Time  2602: Patient  79 discharged at time 2602
+Time  2602: Patient  88 starts treatment of length 32.
+Time  2610: Patient  80 discharged at time 2610
+Time  2610: Patient  91 starts treatment of length 51.
+Time  2634: Patient  88 discharged at time 2634
+Time  2634: Patient  92 starts treatment of length 134.
+Time  2640: Patient  82 discharged at time 2640
+Time  2640: Patient  96 starts treatment of length 123.
+Time  2661: Patient  91 discharged at time 2661
+Time  2661: Patient  98 starts treatment of length 31.
+Time  2692: Patient  98 discharged at time 2692
+Time  2763: Patient  96 discharged at time 2763
+Time  2768: Patient  92 discharged at time 2768
+
+...Simulation complete.  Final Summary:
+
+               Total       Service Time          Wait Time
+  Station     patients    Total   Average      Total   Average
+----------------------------------------------------------------
+Assessment     100        1655     16.55       365      3.65
+Blood Work      92        1380        15         3 0.0326087
+     X-ray      36         900        25       198       5.5
+ Treatment     100        7915     79.15     32492    324.92
+
+End of processing.

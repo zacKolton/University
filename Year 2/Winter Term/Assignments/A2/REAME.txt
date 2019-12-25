@@ -1,0 +1,38 @@
+Description:
+
+SECTION - Running:
+- Compile: g++ main.cpp
+- execute: ./a.out <name of file.txt>
+
+SECTION - First Note(s):
+	- The program does not run fully
+	- You will see i was only able to make it up to scheduelling assessment events
+	- The main problem was my design between the scheduelling of the bloodwork and xray events
+		- I could not figure out a way to simply pass it from bloodwork (if not available) to xray
+	- You will not see a summary table as there was nothing to summarize
+	- Please focus your attention of the structure of the classes/hierachies as i believe them to be correct
+	- I didnt have time to put "runProgram()" into its own class, as you wil see it in the main file as a function
+
+SECTION - Interaction between objects:
+    - The class initally called is the List class
+		- Specifically for the "event List"
+		- this will hold all of the event(s)/event subclasses
+    - 4 Station classes are called
+		- These classes hold a list (either a Queue or Priority Queue)
+		- The Queues will hold a list of patients
+			- Assessment	(Queue)
+			- BloodWork		(Priority Queue)
+			- Xray			(Priority Queue)
+			- Treatment		(Priority Queue)
+
+SECTION - Processing:
+    - At first a patient is made from reading in the getline(*inFile,line) and parsing it using istringstream
+	- An arrival event is created and added to the event list
+	- The event list removes the first event and put its through the 4 stations to be processed
+		- In the process methods of the stations - it is checked whether the event can be dynamically casted to a particular event
+			- Mainly to check if it was related or not to the particular station
+			- if possible it will perform actions (mainly scheduling the next events)
+		- These methods return a event to be put into the event list (if not null)
+
+
+

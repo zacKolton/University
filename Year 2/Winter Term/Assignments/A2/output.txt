@@ -1,0 +1,102 @@
+Output of test1.txt
+
+ZacComputer:A2KoltonZac zackolton$ ./a.out test1.txt
+Simulation begins...
+Time Unit: 1    Patient#: 1    Arrives in ED -- Nurse available
+Time Unit: 1    Patient#: 1    Starting assessment -- Takes time: 22
+Time Unit: 23    Patient#: 1    Assement Completed -- Assigned priority: 5 -- Scheduled for: xRay
+...Simulation complete.
+
+
+End of processing.
+
+
+----------------------------------------
+Output for  test10.txt
+
+ZacComputer:A2KoltonZac zackolton$ ./a.out test10.txt
+Simulation begins...
+Time Unit: 8    Patient#: 1    Arrives in ED -- Nurse available
+Time Unit: 8    Patient#: 1    Starting assessment -- Takes time: 5
+Time Unit: 9    Patient#: 3    Arrives in ED -- Nurse available
+Time Unit: 9    Patient#: 3    Starting assessment -- Takes time: 29
+Time Unit: 9    Patient#: 2    Arrives in ED -- Nurse available
+Time Unit: 9    Patient#: 2    Starting assessment -- Takes time: 16
+Time Unit: 12    Patient#: 4    Arrives in ED -- Nurse available
+Time Unit: 12    Patient#: 4    Starting assessment -- Takes time: 8
+Time Unit: 15    Patient#: 5    Arrives in ED -- Nurse available
+Time Unit: 15    Patient#: 5    Starting assessment -- Takes time: 13
+
+...Simulation complete.
+
+
+End of processing.
+---------------------------------------
+Output for test100.txt
+
+ZacComputer:A2KoltonZac zackolton$ ./a.out test100.txt
+Simulation begins...
+Time Unit: 11    Patient#: 1    Arrives in ED -- Nurse available
+Time Unit: 11    Patient#: 1    Starting assessment -- Takes time: 9
+Time Unit: 20    Patient#: 1    Assement Completed -- Assigned priority: 1 -- Scheduled for: xRayTime Unit: 33    Patient#: 2    Arrives in ED -- Nurse available
+Time Unit: 33    Patient#: 2    Starting assessment -- Takes time: 7
+Time Unit: 82    Patient#: 3    Arrives in ED -- Nurse available
+Time Unit: 82    Patient#: 3    Starting assessment -- Takes time: 8
+Time Unit: 90    Patient#: 3    Assement Completed -- Assigned priority: 3 -- Scheduled for: xRayTime Unit: 91    Patient#: 4    Arrives in ED -- Nurse available
+Time Unit: 91    Patient#: 4    Starting assessment -- Takes time: 13
+Time Unit: 119    Patient#: 5    Arrives in ED -- Nurse available
+Time Unit: 119    Patient#: 5    Starting assessment -- Takes time: 12
+Time Unit: 159    Patient#: 6    Arrives in ED -- Nurse available
+Time Unit: 159    Patient#: 6    Starting assessment -- Takes time: 28
+Time Unit: 169    Patient#: 7    Arrives in ED -- Nurse available
+Time Unit: 169    Patient#: 7    Starting assessment -- Takes time: 7
+Time Unit: 176    Patient#: 7    Assement Completed -- Assigned priority: 2 -- Scheduled for: xRayTime Unit: 187    Patient#: 6    Assement Completed -- Assigned priority: 5 -- Scheduled for: xRayTime Unit: 501Patient#: 23    Arrives in ED -- Nurse available
+Time Unit: 501    Patient#: 23    Starting assessment -- Takes time: 18
+Time Unit: 519    Patient#: 23    Assement Completed -- Assigned priority: 1 -- Scheduled for: xRayTime Unit: 530    Patient#: 24    Arrives in ED -- Nurse available
+Time Unit: 530    Patient#: 24    Starting assessment -- Takes time: 25
+Time Unit: 555    Patient#: 24    Assement Completed -- Assigned priority: 4 -- Scheduled for: xRayTime Unit: 561    Patient#: 25    Arrives in ED -- Nurse available
+Time Unit: 561    Patient#: 25    Starting assessment -- Takes time: 25
+Time Unit: 563    Patient#: 26    Arrives in ED -- Nurse available
+Time Unit: 563    Patient#: 26    Starting assessment -- Takes time: 10
+Time Unit: 586    Patient#: 25    Assement Completed -- Assigned priority: 3 -- Scheduled for: xRayTime Unit: 877    Patient#: 39    Arrives in ED -- Nurse available
+Time Unit: 877    Patient#: 39    Starting assessment -- Takes time: 8
+Time Unit: 893    Patient#: 40    Arrives in ED -- Nurse available
+Time Unit: 893    Patient#: 40    Starting assessment -- Takes time: 14
+Time Unit: 907    Patient#: 40    Assement Completed -- Assigned priority: 4 -- Scheduled for: xRayTime Unit: 909    Patient#: 41    Arrives in ED -- Nurse available
+Time Unit: 909    Patient#: 41    Starting assessment -- Takes time: 5
+Time Unit: 913    Patient#: 42    Arrives in ED -- Nurse available
+Time Unit: 913    Patient#: 42    Starting assessment -- Takes time: 8
+Time Unit: 1158    Patient#: 57    Arrives in ED -- Nurse available
+Time Unit: 1158    Patient#: 57    Starting assessment -- Takes time: 27
+Time Unit: 1159    Patient#: 58    Arrives in ED -- Nurse available
+Time Unit: 1159    Patient#: 58    Starting assessment -- Takes time: 29
+Time Unit: 1167    Patient#: 59    Arrives in ED -- Nurse available
+Time Unit: 1167    Patient#: 59    Starting assessment -- Takes time: 28
+Time Unit: 1169    Patient#: 60    Arrives in ED -- Nurse available
+Time Unit: 1169    Patient#: 60    Starting assessment -- Takes time: 15
+Time Unit: 1170    Patient#: 61    Arrives in ED -- Nurse available
+Time Unit: 1170    Patient#: 61    Starting assessment -- Takes time: 7
+Time Unit: 1179    Patient#: 62    Arrives in ED -- Nurse available
+Time Unit: 1179    Patient#: 62    Starting assessment -- Takes time: 25
+Time Unit: 1184    Patient#: 60    Assement Completed -- Assigned priority: 1 -- Scheduled for: xRayTime Unit: 1204    Patient#: 62    Assement Completed -- Assigned priority: 5 -- Scheduled for: xRayTime Unit: 1407    Patient#: 75    Arrives in ED -- Nurse available
+Time Unit: 1407    Patient#: 75    Starting assessment -- Takes time: 15
+Time Unit: 1416    Patient#: 76    Arrives in ED -- Nurse available
+Time Unit: 1416    Patient#: 76    Starting assessment -- Takes time: 5
+Time Unit: 1481    Patient#: 81    Arrives in ED -- Nurse available
+Time Unit: 1481    Patient#: 81    Starting assessment -- Takes time: 26
+Time Unit: 1489    Patient#: 82    Arrives in ED -- Nurse available
+Time Unit: 1489    Patient#: 82    Starting assessment -- Takes time: 9
+Time Unit: 1498    Patient#: 82    Assement Completed -- Assigned priority: 5 -- Scheduled for: xRayTime Unit: 1652    Patient#: 89    Arrives in ED -- Nurse available
+Time Unit: 1652    Patient#: 89    Starting assessment -- Takes time: 24
+Time Unit: 1657    Patient#: 90    Arrives in ED -- Nurse available
+Time Unit: 1657    Patient#: 90    Starting assessment -- Takes time: 6
+Time Unit: 1666    Patient#: 91    Arrives in ED -- Nurse available
+Time Unit: 1666    Patient#: 91    Starting assessment -- Takes time: 18
+Time Unit: 1667    Patient#: 92    Arrives in ED -- Nurse available
+Time Unit: 1667    Patient#: 92    Starting assessment -- Takes time: 8
+Time Unit: 1675    Patient#: 92    Assement Completed -- Assigned priority: 5 -- Scheduled for: xRay
+...Simulation complete.
+
+
+End of processing.
+
