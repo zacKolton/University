@@ -1,0 +1,5 @@
+Notes for marker:
+
+- for whatever reason the Makefile "main" has to be run with "./main" instead of main in the terminal
+
+Thanks

@@ -1,0 +1,68 @@
+/**
+ * A1KoltonZachary
+ * 
+ * COMP 2140 SECTION A02
+ * Instructor: Mr. Guderian 
+ * Assignment #1
+ * @ZacKolton7838513
+ * @Oct12/2018
+ * REPORT
+ */
+
+OUTPUT:
+
+Max Items:  10000
+Times Run:  100
+Breakpoint: 50
+-----------------------------------------------
+Insertion Sort:
+Mean =   1.556754551E7
+StdDev = 4929077.728232273
+-----------------------------------------------
+Merge Sort:
+Mean =   1275022.89
+StdDev = 673800.9712006936
+-----------------------------------------------
+Quick Sort:
+Mean =   871442.01
+StdDev = 359743.32897588244
+-----------------------------------------------
+Hybrid Quick Sort:
+Mean =   772070.79
+StdDev = 76424.27824694128
+-----------------------------------------------
+Z-Scores:
+
+Insertion Sort and Merge Sort:        2.872915878904671
+Insertion Sort and Quick Sort:        2.9736026662388433
+Insertion Sort and Hybrid Quick Sort: 3.0013112904466945
+
+Merge Sort and Quick Sort:        0.5283707963067027
+Merge Sort and Hybrid Quick Sort: 0.7416846261631331
+
+Quick Sort and Hybrid Quick Sort: 0.27019820492230034
+-----------------------------------------------
+Quick Sort faster than insertion sort?:   true
+Hybrid Quick Sort faster than Quick Sort?:true
+-----------------------------------------------
+
+
+
+Questions:
+
+Q1)Was the quick sort provably faster than the insertion sort? Why or why not?
+Yes, as we can see from the z-score comparing the two of which is greater than 2.5 (2.973...) which gives us enough evidence to prove quick sort is faster.
+
+The quick sort is faster than insertion because as the data set increases, so does the amount of steps insertion sort has to make O(n^2)
+
+However, given quick sort will be faster in most cases, it can be the same speed as insertion O(n^2) if it is in the worst case scenario.The worst case is when a unfavourable pivot is chosen, where it has to go through the whole list. In best case it is O(nlog(n).
+	
+
+Q2)Was the hybrid quick sort provably faster than the quick sort? Why or why not?
+
+No, we cannot conclude that the hybrid quick sort is faster than quick sort because of the z-score being less than 2.5 and greater than -2.5
+
+It does show it is faster some of the time, but there is not enough evidence to show it is all the time. 
+
+
+

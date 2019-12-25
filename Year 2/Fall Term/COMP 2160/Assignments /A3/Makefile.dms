@@ -1,0 +1,16 @@
+CC =clang
+CFLAGS =-c -Wall
+
+all: target
+
+target: main.o Table.o
+	$(CC) main.o Table.o -o target
+
+main.o: main.c
+	$(CC) $(CFLAGS) main.c
+
+Table.o: Table.c Table.h
+	$(CC) $(CFLAGS) Table.c
+
+clean:
+	rm -rf *.o target
